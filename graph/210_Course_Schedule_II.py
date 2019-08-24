@@ -22,7 +22,7 @@ Explanation: There are a total of 4 courses to take. To take course 3 you should
              So one correct course order is [0,1,2,3]. Another correct ordering is [0,2,1,3] .
 '''
 
-# 207. Course Schedule 문제와 하다. Topology order DFS version
+# 207. Course Schedule 문제와 비슷하다. Topology order DFS version
 # DAG(Directed Acyclic Graph)인지만 검사했던 위 문제와 달리 순서도 정해줘야 한다.
 # DFS를 사용해 차수가 0인 지점부터 마지막 노드까지 쭉 읽어 list에 저장한 뒤 거꾸로 반환해야하지만
 # 난 애초에 읽는 순서를 반대로 해서 list를 그대로 반환한다.
