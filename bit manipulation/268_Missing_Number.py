@@ -12,13 +12,17 @@ Output: 8
 Note:
 Your algorithm should run in linear runtime complexity. Could you implement it using only constant extra space complexity?
 '''
-# Solution 1. real sum - num sum
+# Solution 1. real sum - num sum 
+# Time : O(n) 
+# Space : O(1)
 
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         return len(nums) * (len(nums)+1) // 2 - sum(nums)
 
 # Solution 2. Bit manipulation
+# Time : O(n)
+# Space : O(1)
 
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
